@@ -1,0 +1,140 @@
+.latest-match-container {
+  background-color: #0f172a;
+  height: auto;
+  width: 100%;
+  border: 0 solid;
+  border-radius: 12px;
+  padding: 25px 15px 15px 15px;
+}
+
+.latest-match-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.competor {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.date {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.venue {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+.result {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.competing-team-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.competing-team-logo-2 {
+  display: none;
+}
+
+.horizontal-rule {
+  width: 100%;
+  overflow: hidden;
+  border-color: #475569;
+  margin: 15px 0 15px 0;
+}
+
+.innings {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.team {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+  }
+
+  .latest-match-top-section {
+    width: 33%;
+  }
+
+  .medium-device-image-container {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .latest-match-bottom-section {
+    width: 33%;
+  }
+
+  .horizontal-rule {
+    display: none;
+  }
+
+  .competing-team-logo {
+    display: none;
+  }
+
+  .competing-team-logo-2 {
+    display: block;
+    width: 50%;
+  }
+
+  .competor {
+    font-size: 36px;
+  }
+
+  .date {
+    font-size: 28px;
+  }
+
+  .venue {
+    font-size: 22px;
+  }
+
+  .result {
+    font-size: 22px;
+  }
+
+  .innings {
+    font-size: 24px;
+  }
+
+  .team {
+    font-size: 22px;
+  }
+}
